@@ -13,3 +13,4 @@ RUN cp -rvf cake-shop-website-template/* .
 RUN rm -rf __MACOSX cake-shop-website-template cakezone.zip
 EXPOSE 80
 CMD ["apache2ctl", "-D", "FOREGROUND"]
+#test
